@@ -2,7 +2,7 @@
 
 Encode and decode using Reed-Solomon correction codes.
 
-This library is translated and adapted from the Python version provided by [Wikiversity](https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders)
+This library is translated and adapted from the Python version provided by [Wikiversity](https://en.wikiversity.org/wiki/Reed%E2%80%93Solomon_codes_for_coders).
 
 For a detailed description of the algorithm, refer to this site and to the Python source.
 
