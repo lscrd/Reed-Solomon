@@ -23,7 +23,7 @@ The library provides two low level functions: one to encode a sequence of bytes 
 Two high level functions allow to encode strings or sequences of bytes of any length by splitting them in chunks. The result of the encoding process is a sequence of bytes.
 Two high level functions allow to decode an encoded sequence of bytes of any length to a sequence of bytes or to a string.
 
-If the decoding cannot be done (which occurs, for instance, if there are not enough ECC bytes to correct the corrupt bytes), an exception RSError is raised.
+If the decoding cannot be done (which occurs, for instance, if there are not enough ECC bytes to correct the corrupt bytes), an exception `RSError` is raised.
 
 ## Short example
 
