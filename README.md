@@ -10,7 +10,7 @@ Note that this library is not a universal Reed-Solomon encoder and decoder. So, 
 
 ## Presentation
 
-When encoding using Reed-Solomon error correction codes (ECC), one has to specify the number of ECC bytes which allow to detect and correct corrupt bytes.
+When encoding using Reed-Solomon error correction codes (ECC), one has to specify the number of ECC bytes which allows to detect and correct corrupt bytes.
 When the position of a corrupt byte is unknown, two ECC bytes are needed to detect and correct the error.
 When the position is known, we can specify it when decoding. This is called an “erasure”. As the position is known, a single ECC byte is needed to restore the right value.
 For instance, if we use nine ECC bytes, we are able to detect three errors (using 6 ECC bytes) and three erasures (using 3 ECC bytes).
